@@ -1,0 +1,309 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.Quantum.QSharp.Core/0.12.20072031": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Quantum.Runtime.Core": "0.12.20072031"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Quantum.QSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.QSharp.Core.dll": {}
+        }
+      },
+      "Microsoft.Quantum.Runtime.Core/0.12.20072031": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Quantum.Runtime.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Runtime.Core.dll": {}
+        }
+      },
+      "Microsoft.Quantum.Simulators/0.12.20072031": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Quantum.QSharp.Core": "0.12.20072031",
+          "Microsoft.Quantum.Runtime.Core": "0.12.20072031",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulators.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll": {},
+          "lib/netstandard2.1/Microsoft.Quantum.Simulators.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/vcomp140.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Microsoft.Quantum.Standard/0.12.20072031": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Quantum.Runtime.Core": "0.12.20072031",
+          "Microsoft.Quantum.Simulators": "0.12.20072031"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Quantum.Standard.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Standard.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Reflection.Metadata/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+        }
+      },
+      "QRNGGUI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.Quantum.QSharp.Core": "0.12.20072031",
+          "Microsoft.Quantum.Runtime.Core": "0.12.20072031",
+          "Microsoft.Quantum.Standard": "0.12.20072031"
+        },
+        "compile": {
+          "bin/placeholder/QRNGGUI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/QRNGGUI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Quantum.QSharp.Core/0.12.20072031": {
+      "sha512": "eEYgY/i/Rww1u13np8fTuyqUj2TPn+JFt4QIh41CUeLO9bbbv9MrN/WRj7XIBjceGEn2VkxmHp3HOnPf3MPYtw==",
+      "type": "package",
+      "path": "microsoft.quantum.qsharp.core/0.12.20072031",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Microsoft.Quantum.QSharp.Core.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.QSharp.Core.pdb",
+        "lib/netstandard2.1/Microsoft.Quantum.QSharp.Core.xml",
+        "microsoft.quantum.qsharp.core.0.12.20072031.nupkg.sha512",
+        "microsoft.quantum.qsharp.core.nuspec",
+        "qdk-nuget-icon.png"
+      ]
+    },
+    "Microsoft.Quantum.Runtime.Core/0.12.20072031": {
+      "sha512": "YrHnnltRpv97krFaPvpv7mnn48wyRfSjZWEaD1gCX8o7Jei3U3Fd4WUOMYmSfG0oAaE8RYufe6lLHYmZ6Q68pA==",
+      "type": "package",
+      "path": "microsoft.quantum.runtime.core/0.12.20072031",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Microsoft.Quantum.Runtime.Core.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Runtime.Core.pdb",
+        "lib/netstandard2.1/Microsoft.Quantum.Runtime.Core.xml",
+        "microsoft.quantum.runtime.core.0.12.20072031.nupkg.sha512",
+        "microsoft.quantum.runtime.core.nuspec",
+        "qdk-nuget-icon.png"
+      ]
+    },
+    "Microsoft.Quantum.Simulators/0.12.20072031": {
+      "sha512": "6xoPVx/vuMONXBdo007si/BZvr0W219kiE7AFmg08IepKRwP3z3DtlXcZLInzChizRootkzCr1n8Qoi+Wm2Xrw==",
+      "type": "package",
+      "path": "microsoft.quantum.simulators/0.12.20072031",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/qdk-nuget-icon.png",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulators.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulators.pdb",
+        "lib/netstandard2.1/Microsoft.Quantum.Simulators.xml",
+        "microsoft.quantum.simulators.0.12.20072031.nupkg.sha512",
+        "microsoft.quantum.simulators.nuspec",
+        "runtimes/linux-x64/native/Microsoft.Quantum.Simulator.Runtime.dll",
+        "runtimes/osx-x64/native/Microsoft.Quantum.Simulator.Runtime.dll",
+        "runtimes/win-x64/native/Microsoft.Quantum.Simulator.Runtime.dll",
+        "runtimes/win-x64/native/vcomp140.dll"
+      ]
+    },
+    "Microsoft.Quantum.Standard/0.12.20072031": {
+      "sha512": "fj0UCT6JDYPmZCBtlonfb+s2x9lpXRE4VvcJ7UD0oF/aiyi/Phw4yNsKntQYtwKidTFJtY3hYY59q9CdORSfHg==",
+      "type": "package",
+      "path": "microsoft.quantum.standard/0.12.20072031",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Microsoft.Quantum.Standard.dll",
+        "lib/netstandard2.1/Microsoft.Quantum.Standard.pdb",
+        "lib/netstandard2.1/Microsoft.Quantum.Standard.xml",
+        "microsoft.quantum.standard.0.12.20072031.nupkg.sha512",
+        "microsoft.quantum.standard.nuspec",
+        "qdk-nuget-icon.png"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Reflection.Metadata/1.7.0": {
+      "sha512": "PodRDaRRNI3BcF3zuEsrzn1jm/zws5UevTzIv5FqcOwWB3VPaU4jS6vt0tSxu+i38Wtn9vXFNgDHw09nDv8y5Q==",
+      "type": "package",
+      "path": "system.reflection.metadata/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.1/System.Reflection.Metadata.dll",
+        "lib/netstandard1.1/System.Reflection.Metadata.xml",
+        "lib/netstandard2.0/System.Reflection.Metadata.dll",
+        "lib/netstandard2.0/System.Reflection.Metadata.xml",
+        "lib/portable-net45+win8/System.Reflection.Metadata.dll",
+        "lib/portable-net45+win8/System.Reflection.Metadata.xml",
+        "system.reflection.metadata.1.7.0.nupkg.sha512",
+        "system.reflection.metadata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "QRNGGUI/1.0.0": {
+      "type": "project",
+      "path": "../QRNGGUI/QRNGGUI.csproj",
+      "msbuildProject": "../QRNGGUI/QRNGGUI.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "QRNGGUI >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\QRNGGUI\\FormQS\\FormQS.csproj",
+      "projectName": "FormQS",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\QRNGGUI\\FormQS\\FormQS.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\source\\repos\\QRNGGUI\\FormQS\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\USER\\source\\repos\\QRNGGUI\\QRNGGUI\\QRNGGUI.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\QRNGGUI\\QRNGGUI\\QRNGGUI.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

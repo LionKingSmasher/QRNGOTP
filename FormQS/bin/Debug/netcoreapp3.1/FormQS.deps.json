@@ -1,0 +1,168 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FormQS/1.0.0": {
+        "dependencies": {
+          "QRNGGUI": "1.0.0",
+          "QRNGGUI.Reference": "1.0.0.0"
+        },
+        "runtime": {
+          "FormQS.dll": {}
+        }
+      },
+      "Microsoft.Quantum.QSharp.Core/0.12.20072031": {
+        "dependencies": {
+          "Microsoft.Quantum.Runtime.Core": "0.12.20072031"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.QSharp.Core.dll": {
+            "assemblyVersion": "0.12.0.0",
+            "fileVersion": "0.12.0.0"
+          }
+        }
+      },
+      "Microsoft.Quantum.Runtime.Core/0.12.20072031": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Runtime.Core.dll": {
+            "assemblyVersion": "0.12.0.0",
+            "fileVersion": "0.12.0.0"
+          }
+        }
+      },
+      "Microsoft.Quantum.Simulators/0.12.20072031": {
+        "dependencies": {
+          "Microsoft.Quantum.QSharp.Core": "0.12.20072031",
+          "Microsoft.Quantum.Runtime.Core": "0.12.20072031",
+          "System.Reflection.Metadata": "1.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.Common.dll": {
+            "assemblyVersion": "0.12.0.0",
+            "fileVersion": "0.12.0.0"
+          },
+          "lib/netstandard2.1/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll": {
+            "assemblyVersion": "0.12.0.0",
+            "fileVersion": "0.12.0.0"
+          },
+          "lib/netstandard2.1/Microsoft.Quantum.Simulators.dll": {
+            "assemblyVersion": "0.12.0.0",
+            "fileVersion": "0.12.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/Microsoft.Quantum.Simulator.Runtime.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/vcomp140.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "14.11.25325.0"
+          }
+        }
+      },
+      "Microsoft.Quantum.Standard/0.12.20072031": {
+        "dependencies": {
+          "Microsoft.Quantum.Runtime.Core": "0.12.20072031",
+          "Microsoft.Quantum.Simulators": "0.12.20072031"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Quantum.Standard.dll": {
+            "assemblyVersion": "0.12.0.0",
+            "fileVersion": "0.12.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Reflection.Metadata/1.7.0": {},
+      "QRNGGUI.Reference/1.0.0.0": {
+        "runtime": {
+          "QRNGGUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FormQS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Quantum.QSharp.Core/0.12.20072031": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eEYgY/i/Rww1u13np8fTuyqUj2TPn+JFt4QIh41CUeLO9bbbv9MrN/WRj7XIBjceGEn2VkxmHp3HOnPf3MPYtw==",
+      "path": "microsoft.quantum.qsharp.core/0.12.20072031",
+      "hashPath": "microsoft.quantum.qsharp.core.0.12.20072031.nupkg.sha512"
+    },
+    "Microsoft.Quantum.Runtime.Core/0.12.20072031": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YrHnnltRpv97krFaPvpv7mnn48wyRfSjZWEaD1gCX8o7Jei3U3Fd4WUOMYmSfG0oAaE8RYufe6lLHYmZ6Q68pA==",
+      "path": "microsoft.quantum.runtime.core/0.12.20072031",
+      "hashPath": "microsoft.quantum.runtime.core.0.12.20072031.nupkg.sha512"
+    },
+    "Microsoft.Quantum.Simulators/0.12.20072031": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6xoPVx/vuMONXBdo007si/BZvr0W219kiE7AFmg08IepKRwP3z3DtlXcZLInzChizRootkzCr1n8Qoi+Wm2Xrw==",
+      "path": "microsoft.quantum.simulators/0.12.20072031",
+      "hashPath": "microsoft.quantum.simulators.0.12.20072031.nupkg.sha512"
+    },
+    "Microsoft.Quantum.Standard/0.12.20072031": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fj0UCT6JDYPmZCBtlonfb+s2x9lpXRE4VvcJ7UD0oF/aiyi/Phw4yNsKntQYtwKidTFJtY3hYY59q9CdORSfHg==",
+      "path": "microsoft.quantum.standard/0.12.20072031",
+      "hashPath": "microsoft.quantum.standard.0.12.20072031.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/1.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PodRDaRRNI3BcF3zuEsrzn1jm/zws5UevTzIv5FqcOwWB3VPaU4jS6vt0tSxu+i38Wtn9vXFNgDHw09nDv8y5Q==",
+      "path": "system.reflection.metadata/1.7.0",
+      "hashPath": "system.reflection.metadata.1.7.0.nupkg.sha512"
+    },
+    "QRNGGUI.Reference/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

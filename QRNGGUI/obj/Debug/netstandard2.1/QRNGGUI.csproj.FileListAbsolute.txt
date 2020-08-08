@@ -1,0 +1,9 @@
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\bin\Debug\netstandard2.1\QRNGGUI.deps.json
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\bin\Debug\netstandard2.1\QRNGGUI.dll
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\bin\Debug\netstandard2.1\QRNGGUI.pdb
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\obj\Debug\netstandard2.1\QRNGGUI.csprojAssemblyReference.cache
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\obj\Debug\netstandard2.1\QRNGGUI.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\obj\Debug\netstandard2.1\QRNGGUI.AssemblyInfo.cs
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\obj\Debug\netstandard2.1\QRNGGUI.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\obj\Debug\netstandard2.1\QRNGGUI.dll
+C:\Users\USER\source\repos\QRNGGUI\QRNGGUI\obj\Debug\netstandard2.1\QRNGGUI.pdb
